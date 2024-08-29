@@ -1,0 +1,48 @@
+﻿@model FilteredStaffListViewModel
+
+@{
+
+}
+
+<form asp-controller="Staffs" asp-action="Index" method="get">
+    <div class="mb-3">
+        <label for="staffIdInput" class="form-label">Stff Id</label>
+        <input type="number" class="form-control" name="staffId" asp-for="@Model.Filter.StaffId" id="staffIdInput">
+    </div>
+    <div class="mb-3">
+        <label for="staffIdInput" class="form-label">Store Name</label>
+        <input type="text" class="form-control" name="storeName" asp-for="@Model.Filter.StoreName" id="staffIdInput">
+    </div>
+  
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">Id</th>
+            <th scope="col">First Name</th>
+            <th scope="col">Last Name</th>
+            <th scope="col">Email</th>
+            <th scope="col">Phone</th>
+            <th scope="col">Store Id</th>
+            <th scope="col">Store Name</th>
+            <th scope="col">Manager First Name</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(var staff in Model.Staffs)
+        {
+            <tr>
+                <th scope="row">@staff.StaffId</th>
+                <td>@staff.FirstName</td>
+                <td>@staff.LastName</td>
+                <td>@staff.Email</td>
+                <td>@staff.Phone</td>
+                <td>@staff.StoreId</td>
+                <td>@staff.StoreName</td>
+                <td>@staff.ManagerFirstName</td>
+            </tr>
+        }
+    </tbody>
+</table>
