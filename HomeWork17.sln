@@ -7,8 +7,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeWork17", "HomeWork17\Ho
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{CD4EB923-1082-4439-B71D-4554F28DDD5A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeWork17.Domain", "HomeWork17.Domain\HomeWork17.Domain.csproj", "{82E980C2-6C6D-4E90-9ECC-66B782C2613B}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataAccess", "DataAccess", "{9E2E4A76-2953-47FE-8AA5-5B481609E442}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Service", "Service", "{E241B2D8-6595-47B9-9EA1-54477155A70F}"
@@ -25,17 +23,12 @@ Global
 		{EAA09C72-D114-4829-9912-3E722210B6B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EAA09C72-D114-4829-9912-3E722210B6B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EAA09C72-D114-4829-9912-3E722210B6B6}.Release|Any CPU.Build.0 = Release|Any CPU
-		{82E980C2-6C6D-4E90-9ECC-66B782C2613B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{82E980C2-6C6D-4E90-9ECC-66B782C2613B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{82E980C2-6C6D-4E90-9ECC-66B782C2613B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{82E980C2-6C6D-4E90-9ECC-66B782C2613B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{EAA09C72-D114-4829-9912-3E722210B6B6} = {42FC7209-581D-4FCF-BC3D-F5EBC885C87A}
-		{82E980C2-6C6D-4E90-9ECC-66B782C2613B} = {CD4EB923-1082-4439-B71D-4554F28DDD5A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FFC9DA23-B734-4211-B0FD-0A2795A4F2A3}
